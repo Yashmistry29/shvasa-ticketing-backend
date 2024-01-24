@@ -14,7 +14,7 @@
   "crons":[
     {
       "path":"/api/round-robin-cron",
-      "schedule":"0 * * * *"
+      "schedule":"0 2 * * *"
     }
   ]
 }
