@@ -5,6 +5,7 @@ const agentSchema = new mongoose.Schema({
   email: String,
   phone: String,
   description: String,
+  password: String,
   active: Boolean,
   dateCreated: Date
 }, { versionKey: false })

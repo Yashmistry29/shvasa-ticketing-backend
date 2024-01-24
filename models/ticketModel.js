@@ -5,6 +5,7 @@ const ticketSchema = new mongoose.Schema({
   description: String,
   dateCreated: Date,
   severity: String,
+  type: String,
   assignedTo: String, // Support Agent ID
   status: String, // New, Assigned, Resolved
   resolvedOn: Date
